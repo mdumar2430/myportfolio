@@ -1,8 +1,12 @@
+import Home from "./components/Home";
+import NavBar from "./components/NavBar";
+
 function App() {
   return (
-    <h1 className="text-3xl font-bold font-sign">
-      Md Umar
-    </h1> 
+    <div>
+      <NavBar />
+      <Home />
+    </div>
   );
 }
 
