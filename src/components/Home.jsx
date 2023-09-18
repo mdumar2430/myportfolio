@@ -4,7 +4,7 @@ import ProfileImage from '../assets/MyPic.jpg'
 const Home = () => {
   return (
     <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
-        <div className='max-w-screen-lg mx-auto px-4 h-full flex flex-col justify-center items-center md:flex-row'>
+        <div className='max-w-screen-lg h-full mx-auto px-4 flex flex-col justify-center items-center md:flex-row'>
             <div className='flex flex-col h-full justify-center w-full'>
                 <h2 className='text-4xl md:text-7xl text-white font-bold'>
                     I'm a Full Stack Developer!
