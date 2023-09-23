@@ -27,11 +27,11 @@ const Portfolio = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-gray-400'>Hall of Fame!</p>
                 <p className='text-2xl py-4'>Check out some of my Web Projects!</p>
             </div>
-            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
+            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 text-center'>
             {
-                projects.map(({id, src, href    }) => (
+                projects.map(({id, src, href}) => (
                 <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
-                    <img src={src} alt="" className='rounded-md duration-200 hover:scale-105'/>
+                    <img src={src} alt="" className='rounded-md '/>
                     <div className='flex justify-center items-center'>
                         <a href={href} className='px-6 py-4 hover:scale-105 duration-200 hover:font-bold'>View Code</a>
                     </div>
